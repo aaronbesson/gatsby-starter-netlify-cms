@@ -1,6 +1,5 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
-import Layout from '../../components/Layout'
 
 function encode(data) {
   return Object.keys(data)
@@ -43,7 +42,7 @@ export default class Index extends React.Component {
               <form
                 name="contact"
                 method="post"
-                action="/contact/thanks/"
+                action="https://ttutc.com"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
